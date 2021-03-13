@@ -7,21 +7,29 @@ import static spark.Spark.get;
 import static spark.Spark.port;
 import static spark.Spark.post;
 
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+
 
 import spark.ModelAndView;
 import spark.template.mustache.MustacheTemplateEngine;
 
 
 public class App {
+
     public String getGreeting() {
         return "Hello World!";
     }
 
     public static void main(String[] args) {
-        port(getHerokuAssignedPort());
+        //port(getHerokuAssignedPort());
+
+        int port = Integer.parseInt(System.getenv("PORT"));
+        port(port);
+
+
 
         get("/", (req, res) -> "Hello, World");
 
