@@ -13,6 +13,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
+
 import spark.ModelAndView;
 import spark.template.mustache.MustacheTemplateEngine;
 
@@ -24,10 +25,10 @@ public class App {
     }
 
     public static void main(String[] args) {
-        //port(getHerokuAssignedPort());
+        port(getHerokuAssignedPort());
 
-        int port = Integer.parseInt(System.getenv("PORT"));
-        port(port);
+        //int port = Integer.parseInt(System.getenv("PORT"));
+       // port(port);
 
 
 
