@@ -1,0 +1,1 @@
+verilen 3 sayinin ortalamasini verilen arraylistte ariyor ve bulursa false donuyor.
