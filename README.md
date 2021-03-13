@@ -2,6 +2,4 @@ finds the mean of 3 numbers given. then search it on an given array. if array co
 
 [![Build Status](https://travis-ci.com/Lihem/FirstWebApp.svg?branch=main)](https://travis-ci.com/Lihem/FirstWebApp)
 
-feature/xyz
-
 Demo site: https://morning-brook-65444.herokuapp.com/
